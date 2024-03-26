@@ -53,6 +53,7 @@ type ContactMethod struct {
 	Blacklisted    bool   `json:"blacklisted,omitempty"`
 	CountryCode    int    `json:"country_code,omitempty"`
 	Enabled        bool   `json:"enabled,omitempty"`
+	DeviceType     string `json:"device_type"`
 }
 
 // ListUsersResponse is the data structure returned from calling the ListUsers API endpoint.
